@@ -1,0 +1,4 @@
+cmake-build-debug/
+linked_list/.idea/
+linked_list/CMakeLists.txt
+linked_list/cmake-build-debug/
