@@ -58,7 +58,8 @@ Node<T>* List<T>::find(const T& data) {
 }
 
 // previous finder
-Node<T*> findPrevious(const T& data) {
+template <class T>
+Node<T*> List<T>::findPrevious(const T& data) {
     Node<T>* p = zeroth();
     while (p->next) {
         if (p->next->element==data) {
