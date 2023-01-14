@@ -29,7 +29,7 @@ public:
     const Node<T>* first() const {
         return dummyHead->next;
     }
-    bool isEmpty() const {first() == NULL;}
+    bool isEmpty() const {return first() == NULL;}
 
     void insert(const T& data, Node<T>* p);
     Node<T>* find(const T& data);
